@@ -6,8 +6,8 @@
   - This simulator uses LRU to choose the least recently used cache line to evict.
 
 ## Lab Files:
- - `Cachelab.pdf`:  Lab writeup
+ - `cachelab.pdf`:  Lab writeup
 - `csim.c`: contains the main function
-- `Cache.c`: contains my cache simulator
+- `cache.c`: contains my cache simulator
 - `traces`: directory contains the valgrind memory trace files.
 - `test-sim`: tests the correctness of your simulator.
