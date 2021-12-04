@@ -23,16 +23,7 @@ long long address;
 
 static int find_lru_line(cache *, int, int);
 
-/*
- * 
- */
-
- static void fetch(struct Cache *, int, int, long long, char, int, int *, int *, int *);
-
-/*
- * 
- */
-
+static void fetch(struct Cache *, int, int, long long, char, int, int *, int *, int *);
 
 void init_cache(cache **c, int setBits, int linesPerSet) {
     int setsNum = 1 << (setBits);
